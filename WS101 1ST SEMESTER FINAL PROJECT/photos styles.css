@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive; /* Pixelated font */
+    color: #000;
+    position: relative;
+    overflow: hidden; /* Prevents scrolling */
+    background-image: url('images/wp7590500-3085967255.png'); /* Path to your image */
+    background-size: cover; /* Make sure it covers the entire background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #ff69b4; /* Soft pink header */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #b0e0e6; /* Light blue for nav bar */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ffb6c1; /* Soft pink on hover */
+    border-radius: 10px;
+}
+
+.description {
+    padding: 50px;
+    color: #000;
+    font-size: 18px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive; /* Pixelated font */
+    color: #000;
+    position: relative;
+    overflow: hidden; /* Prevents scrolling */
+    background-image: url('images/wp7590500-3085967255.png'); /* Path to your image */
+    background-size: cover; /* Make sure it covers the entire background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #ff69b4; /* Soft pink header */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #b0e0e6; /* Light blue for nav bar */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ffb6c1; /* Soft pink on hover */
+    border-radius: 10px;
+}
+
+.description {
+    padding: 50px;
+    color: #000;
+    font-size: 18px;
+}
