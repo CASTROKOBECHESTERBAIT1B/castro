@@ -3,20 +3,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Press Start 2P', cursive; /* Pixelated font */
+    font-family: 'Press Start 2P', cursive;
     color: #000;
     position: relative;
-    overflow: hidden; /* Prevents scrolling */
-    background-image: url('images/wp7590500-3085967255.png'); /* Path to your image */
-    background-size: cover; /* Make sure it covers the entire background */
-    background-repeat: no-repeat; /* Prevent repeating the image */
+    overflow: auto;
+    background-image: url('images/R1hsz5-3595601928.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
-    max-width: 800px; /* Set a max width for the container */
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 20px;
 }
@@ -24,8 +24,22 @@ body {
 header h1 {
     font-size: 36px;
     margin-top: 20px;
-    color: #ff69b4; /* Soft pink header */
+    color: #ff69b4;
     padding: 10px;
+}
+
+h2 {
+    background-image: 
+      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;  
+    animation: move 35s linear infinite;
+  }
+  
+  @keyframes move {
+      to {
+          background-position: 4500vh;
+      }
 }
 
 nav ul {
@@ -33,7 +47,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #b0e0e6; /* Light blue for nav bar */
+    background-color: #b0e0e6;
 }
 
 nav ul li {
@@ -49,7 +63,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ffb6c1; /* Soft pink on hover */
+    background-color: #ffb6c1;
     border-radius: 10px;
 }
 
@@ -63,20 +77,20 @@ nav ul li a:hover {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Press Start 2P', cursive; /* Pixelated font */
+    font-family: 'Press Start 2P', cursive;
     color: #000;
     position: relative;
-    overflow: hidden; /* Prevents scrolling */
-    background-image: url('images/wp7590500-3085967255.png'); /* Path to your image */
-    background-size: cover; /* Make sure it covers the entire background */
-    background-repeat: no-repeat; /* Prevent repeating the image */
+    overflow: auto;
+    background-image: url('images/R1hsz5-3595601928.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
-    max-width: 800px; /* Set a max width for the container */
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 20px;
 }
@@ -84,7 +98,7 @@ body {
 header h1 {
     font-size: 36px;
     margin-top: 20px;
-    color: #ff69b4; /* Soft pink header */
+    color: #7eca9e;
     padding: 10px;
 }
 
@@ -93,7 +107,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #b0e0e6; /* Light blue for nav bar */
+    background-color: #ffb6c1;
 }
 
 nav ul li {
@@ -109,7 +123,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ffb6c1; /* Soft pink on hover */
+    background-color: #93f0c1;
     border-radius: 10px;
 }
 
